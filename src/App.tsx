@@ -50,7 +50,7 @@ export default function App() {
             <button onClick={() => setLang('en')} className={lang === 'en' ? 'text-ember' : 'hover:text-white'}>EN</button>|
             <button onClick={() => setLang('ar')} className={lang === 'ar' ? 'text-ember' : 'hover:text-white'}>AR</button>
           </div>
-          <button className="hidden md:block bg-ember text-white px-4 py-1 font-headline tracking-widest text-sm hover:scale-95 transition-transform">{t.nav.whatsapp}</button>
+          <a href="https://wa.me/6283167987800?text=Halo%20astrina%20saya%20tertarik%20dengan%20website%20%22Charcoal%20Exports%22%20atau%20saya%20tertarik%20membuat%20template%20seperti%20demo2.astmay.space%20bisakah%20saya%20dapat%20free%20konsultasi%20%3F" target="_blank" rel="noopener noreferrer" className="hidden md:block bg-ember text-white px-4 py-1 font-headline tracking-widest text-sm hover:scale-95 transition-transform">{t.nav.whatsapp}</a>
         </div>
       </nav>
 
@@ -71,7 +71,7 @@ export default function App() {
               {t.hero.desc}
             </motion.p>
             <motion.div variants={fadeUpVariant} className="flex flex-wrap gap-4">
-              <button onClick={() => scrollTo('contact')} className="bg-ember text-white px-6 md:px-10 py-3 md:py-4 font-headline text-xl md:text-2xl tracking-widest hover:bg-secondary-container transition-all active:scale-95">{t.hero.btnSample}</button>
+              <a href="https://wa.me/6283167987800?text=Halo%20astrina%20saya%20tertarik%20dengan%20website%20%22Charcoal%20Exports%22%20atau%20saya%20tertarik%20membuat%20template%20seperti%20demo2.astmay.space%20bisakah%20saya%20dapat%20free%20konsultasi%20%3F" target="_blank" rel="noopener noreferrer" className="inline-block bg-ember text-white px-6 md:px-10 py-3 md:py-4 font-headline text-xl md:text-2xl tracking-widest hover:bg-secondary-container transition-all active:scale-95">{t.hero.btnSample}</a>
               <button onClick={() => scrollTo('specifications')} className="border border-outline-variant text-white px-6 md:px-10 py-3 md:py-4 font-headline text-xl md:text-2xl tracking-widest hover:bg-surface-container-high transition-all">{t.hero.btnSpecs}</button>
             </motion.div>
           </motion.div>
@@ -434,12 +434,12 @@ export default function App() {
                     <option className="bg-surface">{t.specs.hexagonal}</option>
                   </select>
                 </div>
-                <button type="submit" className="mt-12 w-full bg-ember text-white p-6 flex justify-between items-center group transition-all hover:bg-secondary-container">
+                <a href="https://wa.me/6283167987800?text=Halo%20astrina%20saya%20tertarik%20dengan%20website%20%22Charcoal%20Exports%22%20atau%20saya%20tertarik%20membuat%20template%20seperti%20demo2.astmay.space%20bisakah%20saya%20dapat%20free%20konsultasi%20%3F" target="_blank" rel="noopener noreferrer" className="mt-12 w-full bg-ember text-white p-6 flex justify-between items-center group transition-all hover:bg-secondary-container">
                   <span className="font-headline text-3xl tracking-widest">{t.contact.submit}</span>
                   <span className="material-symbols-outlined text-4xl group-hover:translate-x-2 transition-transform">
                     {lang === 'ar' ? 'arrow_back' : 'arrow_forward'}
                   </span>
-                </button>
+                </a>
               </form>
               <p className="mt-6 font-mono text-[10px] text-outline text-center">{t.contact.responseTime}</p>
             </div>
@@ -485,6 +485,9 @@ export default function App() {
               LNG: 106.8456
             </div>
           </div>
+        </div>
+        <div className="max-w-7xl mx-auto px-8 mt-8 text-center">
+          <p className="font-mono text-[10px] text-[#AF887F]/60 tracking-widest">Website oleh <a href="https://astmay.space" target="_blank" rel="noopener" className="text-ember/60 hover:text-ember transition-colors underline">Astrina Maysaroh — Jasa Pembuatan Website Profesional</a></p>
         </div>
       </footer>
     </>
