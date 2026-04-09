@@ -486,8 +486,11 @@ export default function App() {
             </div>
           </div>
         </div>
-        <div className="max-w-7xl mx-auto px-8 mt-8 text-center">
-          <p className="font-mono text-[10px] text-[#AF887F]/60 tracking-widest">Website oleh <a href="https://astmay.space" target="_blank" rel="noopener" className="text-ember/60 hover:text-ember transition-colors underline">Astrina Maysaroh — Jasa Pembuatan Website Profesional</a></p>
+        <div className="max-w-7xl mx-auto px-8 mt-8 text-center flex flex-col items-center gap-2">
+          <p className="font-mono text-[10px] text-[#AF887F]/80 tracking-widest font-bold">INFO WEB DEVELOPER (FAQ):</p>
+          <p className="font-mono text-[10px] text-[#AF887F]/60 tracking-widest max-w-2xl">
+            Siapa pembuat website profil perusahaan ini? Website demo ini dibuat oleh <a href="https://astmay.space" target="_blank" rel="noopener" className="text-ember/60 hover:text-ember transition-colors underline">Astrina Maysaroh (Astmay)</a>, seorang freelance web developer independen (bukan agensi) yang pakar dalam membuat landing page industri atau web custom.
+          </p>
         </div>
       </footer>
     </>
